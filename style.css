@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+   background-color: rgba(24, 23, 23, 0.645);
+}
+
+.main{
+    background-position: center;
+    background-size: cover;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:rgb(21, 21, 207);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    margin-left:30px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top: 20px;
+}
+.menu a{
+    text-decoration: none;
+    width: 80px;
+    background: white;
+    text-align: center;
+    margin-left: 140px;
+    color: blue;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+a:hover{
+    color: white;
+    background: #000; 
+}
+
+.btnsearch{
+    display: flex;
+    right: 20%;
+}
+
+.search a {
+    background-color: white;
+}
+
+.srch{
+    margin-left: 90px;
+    margin-top: 10px;
+    background: transparent;
+    border: 1px solid rgb(21, 21, 207);
+    border-radius: 2px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    font-size: 16px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+}
+
+.companyname{
+    margin-top: 70px;
+    margin-left: 35%;
+    margin-bottom: 50px;
+    width: 30%;
+    height: 100px;
+    color: whitesmoke;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    transition: .4s ease-in-out;
+}
+.companyname h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+
+.companyname:hover{
+    background: #fff;
+    color: black;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.phonenames{
+    margin-left: 100px;
+    margin-top: 100px;
+  
+}
+.phonenames a{
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff;
+    transition: .4s ease-in;
+    border-radius: 5px;
+    padding: 5px;
+    width: 20px;
+}
+
+.phonesnames a:hover{
+    background: #000;
+    color: white;
+   
+    
+}
+
+.phoneimgs{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
+img{
+    width: 60%;
+    height: 300px;
+    border-radius: 6px;
+}
+.pricetag{
+    background: rgba(21, 5, 5, 0.567);
+    width: 60%;
+    border-radius: 10px;
+}
+.phonedetails{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s ease-in;
+    border-radius: 9px;
+    text-transform: uppercase;
+}
+.phonedetails:hover{
+    background-color: #000;
+    color: #fff;  
+}
+
+hr{
+    margin-top: 20px;
+}
+
+
+.containertwo{
+    display: flex;
+    width: 100%;
+}
+
+.locationheader{
+    text-transform: uppercase;
+    font-family: cursive;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.places{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 30%;
+}
+
+.location1{
+    border: 4px solid black;
+    width: 100%;
+    height:10%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: large;
+    transition: width .4s;
+    cursor: pointer;
+    color: white;
+   
+
+}
+
+.location1:hover{
+    width: 80px;
+    background: white;
+    color: blue;
+    font-weight: bold;
+    border-bottom: 4px solid blue;
+    border-top: 4px solid red;
+}
+
+.reviews{
+    margin-left: 25%;
+    border-left: 5px solid #000;
+    width: 100%;
+}
+
+
+.reviews h3{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-top: none;
+    border-left: 10px solid #000;
+    border-right: 10px solid #000;
+    box-shadow:  10px 5px 3px white;
+    margin-left: 25%;
+}
+.review1{
+    width: 40%;
+    border: 3px solid black;
+    padding: 5px;
+    margin-left: 30%;
+    border-radius: 10px;
+    font-weight: 50px;
+    background: #fff;
+    font-size: 20px;
+}
+
+.reviews .person{
+    margin-left: 80%;
+    font-weight: bolder;
+}
+
+.facebook{
+    border: 1px solid black;
+    width: 25px;
+    font-size: large;
+    color: #fff;
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.twitter{
+    font-size: 30px;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 25px;
+    height: 27px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: aqua;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.linkdin{
+    border: 1px solid black;
+    width: 25px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: rgb(34, 34, 122);
+    color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: large;
+    cursor: pointer;
+}
+.instagram .main{
+    border: 1px solid white;
+    width: 30px;
+    margin-left: 10px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: radial-gradient(circle, purple, yellow, red);
+    cursor: pointer;
+}
+.main2{
+    border: 1px solid white;
+    width: px;
+    margin-left: 4px;
+    border-radius: 5px;
+    height: 15px;
+    margin-top: 2px;
+    background:radial-gradient(circle, purple, yellow, red);
+}
+.circle{
+    border: 1px solid black;
+    width: 3px;
+    height: 5px;
+    margin-left: 16px;
+    border-radius: 15px;
+    margin-bottom: 3px;
+   
+   
+    background-color: #fff;
+}
+
+footer{
+    background: #000;
+    display: flex;
+    width: 100%;
+}
+
+.footercontact{
+    color: white;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+
+.author{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    margin-left: 100px;
+}
+
+.authorimg img{
+    width: 100%;
+    height: 100px;
+    border: 2px solid white;
+    margin-top: 10px;
+    transition: width 2s;
+}
+
+.authorimg img:hover{
+    width: 150px;
+
+}
+
+
+.outer-footer{
+    color: white;
+    background: #000;
+    text-align: center;
+}
